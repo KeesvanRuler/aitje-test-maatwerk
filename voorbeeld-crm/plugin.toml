@@ -1,0 +1,17 @@
+key = "voorbeeld-crm"
+name = "Voorbeeld-CRM"
+description = "Zoekt klanten en hun notities in het CRM, en kan een notitie toevoegen."
+version = "1.0.0"
+requires = ">=1.0"
+module = "plugin"
+products = ["chat-assistent"]
+
+[settings.crm_url]
+label = "Adres van het CRM"
+type = "url"
+required = true
+
+[settings.crm_token]
+label = "API-sleutel van het CRM"
+type = "secret"
+required = true
